@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <title>My portfolio</title>
+
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="container">
+      <!-- ヘッダーロゴ -->
+      <div class="header_logo">
+        <a class="logo" href="#">
+          <h1>My portfolio</h1>
+        </a>
+      </div>
+      <!-- ナビゲーションエリア -->
+      <nav class="header_nav">
+        <ul class="header_nav_list">
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Works">Works</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- レスポンシブ -->
+      <div class="table">
+        <table width="100%">
+          <tr>
+            <td>
+              <a href="#About">About</a>
+            </td>
+            <td>
+              <a href="#Skills">Skills</a>
+            </td>
+            <td>
+              <a href="#Works">Works</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main>
+    <div class="mainvisual">
+
+      <picture>
+        <source media="(max-width: 768px)" srcset="img/mainvisual2.jpg">
+        <img src="img/mainvisual1.jpg" alt="テキストテキストテキスト">
+      </picture>
+
+    </div>
+    <!-- About -->
+
+    <section class="about">
+      <div class="container">
+        <h2 class="section_ttl" id="About">About</h2>
+        <ul>
+          <li class="name">岩田　恵美子　EMIKO　IWATA</li>
+          <li>静岡県在住　島根県出身</li>
+        </ul>
+        <p>
+          20代はトラックドライバー、30歳から8年間タイで日本語教師、日系企業での貿易事務、
+          NPOでのタイ語通訳など、様々な仕事に携わってきました。挑戦したいことがあれば
+          そのために必要な勉強もしてきました。しかし、コロナになり帰国を余儀なくされた事で、
+          今一度これからの人生を考えるきっかけになり、今後はやりたいこと以上に、どう生きたいかを
+          一番に考え、長期的な目線で今の自分の時間を何に投資するべきか考えた時、今後もまだ需要が伸び続ける
+          IT業界に転職し、柔軟な働き方と今後も活かせる技術を手にしたいと強く思い、WEBデザイナーを目指し転職活動中です。
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- skills -->
+
+    <section class="skills">
+      <div class="container">
+        <div class="head_home">
+          <h2 class="section_ttl" id="Skills">Skills</h2>
+        </div>
+
+        <div class="skills_body_home">
+          <ul class="skills_list">
+            <li>
+              <img src="img/skill1.png" alt="HTML">
+              <p class="skills_list_ttl">Coding
+              </p>
+              <p class="skills_description">
+                HTML,CSSを用いてコーディングすることができます。<br>
+                レスポンシブデザインも可能です。
+              </p>
+            </li>
+          </ul>
+          <ul class="skills_list">
+            <li>
+              <img src="img/skill2.png" alt="SCC">
+              <p class="skills_list_ttl">studying</p>
+
+              </p>
+              <p class="skills_description">
+                JavaScript,WordPressに関しても現在学習中です。<br>
+              </p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- works -->
+
+    <section class="works">
+      <div class="container">
+        <div class="head_home">
+          <h2 class="section_ttl" id="Works">Works</h2>
+          <p class="section_sub_ttl">
+            課題及び、自主制作一覧
+          </p>
+        </div>
+        <div class="works_body_home">
+          <a href="#"><img src="img/work8.png" alt="自主制作"></a>
+          <a href="#"><img src="img/work7.png" alt="自主制作"></a>
+          <a href="#"><img src="img/work6.png" alt="自主制作"></a>
+          <a href="#"><img src="img/work1.png" alt="課題"></a>
+          <a href="#"><img src="img/work2.png" alt="課題"></a>
+          <a href="#"><img src="img/work3.png" alt="課題"></a>
+          <a href="#"><img src="img/work4.png" alt="課題"></a>
+          <a href="#"><img src="img/work5.png" alt="課題"></a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+
+
+    <div class="footer_copyright">
+      <p> @ 2021 My portfolio </p>
+    </div>
+
+  </footer>
+  <div class="go-to-top">
+    <button type="button" class="btn" onclick="location.href='#'">▲</button>
+  </div>
+</body>
+
+</html>
