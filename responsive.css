@@ -48,6 +48,17 @@
   .body_home {
     flex-direction: column;
   }
+  .skills_body_home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .skills_list {
+    width: 300px;
+    height: auto;
+    margin: 0 30px; 
+    text-align: center;
+  }
   .skills_list li {
     margin-top: 20px;
   }

@@ -208,14 +208,13 @@ section {
 .skills_body_home {
   display: flex;
   align-items: center;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 .skills_list {
   width: 300px;
   height: 200px;
-  margin: 0 60px;
-  display: flex;
+  margin: 0 60px; 
   text-align: center;
 }
 
@@ -226,15 +225,18 @@ section {
 .skills_list img {
   width: 80px;
   height: 80px;
+  margin-bottom: 15px;
 }
 
 .skills_list_ttl {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .skills_description {
   text-align: left;
+  
 }
 
 /* Works */
@@ -263,7 +265,10 @@ section {
 .works_body_home img:hover {
   opacity: 0.7;
 }
-
+.original_works p{
+text-align: center;
+margin-bottom: 20px;
+}
 /* footer */
 
 .footer .container {
