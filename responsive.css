@@ -21,8 +21,8 @@
   .header_nav_list {
     display: none;
   }
-  .table {
-    margin-top: 20px;
+  .table {    
+    margin-top: 50px;
   }
   .table td {
     border: solid 1px #333333;
@@ -50,13 +50,14 @@
   }
   .skills_body_home {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
   }
   .skills_list {
-    width: 300px;
+    width: auto;
     height: auto;
-    margin: 0 30px; 
+    margin: 10px 30px; 
     text-align: center;
   }
   .skills_list li {
